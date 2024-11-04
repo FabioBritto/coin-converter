@@ -11,6 +11,6 @@ public class CoinController {
     
     public void getCoinByName(){
         String coinName = coinView.chooseByName();
-        Coin coin = coinService.getCoinByName();
+        Coin coin = coinService.getCoinByName(coinName);
     }
 }
